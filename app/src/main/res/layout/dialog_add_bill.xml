@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm hóa đơn"
+        android:textSize="18sp"
+        android:textColor="#F2FC0000"/>
+
+
+        <EditText
+            android:id="@+id/edtMaHoaDon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã hóa đơn"/>
+
+        <EditText
+            android:id="@+id/edtNgayMua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày mua" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:text="Thêm"
+        />
+
+</LinearLayout>
